@@ -1,0 +1,5 @@
+#This curl statement uses the MarkLogic REST API to create an application server for us to use to talk to the celulares database.
+
+
+
+curl --anyauth --user admin:admin -X POST -d@"Desktop/ml-api-java/celulares_config.json" -i -H "Content-type: application/json" http://localhost:8002/v1/rest-apis

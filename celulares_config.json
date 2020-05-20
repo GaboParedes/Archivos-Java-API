@@ -1,0 +1,8 @@
+{ 
+  "rest-api": {
+    "name": "8053-celulares",
+    "database": "celulares",
+    "port": "8053",
+    "forests-per-host": 1
+  } 
+}
